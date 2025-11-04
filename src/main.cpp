@@ -4,9 +4,14 @@
 #include <string>
 #include <thread>
 #include <map>
+#include "../lbs/MusicLib/MusicLib.h"
 using namespace std;
 
 int main(){
-    cout << "Em desemvolvimento as libs"
+    string noem;
+    cout << "Nome da musica? \n";
+    cin >> noem;
+    MusicLib::tocar_music(noem);
+
     return  0;
 }
