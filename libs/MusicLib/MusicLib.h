@@ -16,6 +16,8 @@ namespace MusicLib {
     // Toca música até terminar
     void tocar_music(const std::string& file_music);
 
+    void repetir_music();
+
 }
 
 #endif

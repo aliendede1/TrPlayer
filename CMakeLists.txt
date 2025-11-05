@@ -9,8 +9,8 @@ find_package(SFML 2.5 COMPONENTS audio system REQUIRED)
 
 # Criar biblioteca estática MusicLib
 add_library(MusicLib STATIC
-    lbs/MusicLib/MusicLib.cpp
-    lbs/MusicLib/MusicLib.h
+    libs/MusicLib/MusicLib.cpp
+    libs/MusicLib/MusicLib.h
 )
 
 target_include_directories(MusicLib PUBLIC libs/MusicLib)

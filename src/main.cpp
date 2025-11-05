@@ -4,7 +4,7 @@
 #include <string>
 #include <thread>
 #include <map>
-#include "../lbs/MusicLib/MusicLib.h"
+#include "../libs/MusicLib/MusicLib.h"
 using namespace std;
 
 int main(){

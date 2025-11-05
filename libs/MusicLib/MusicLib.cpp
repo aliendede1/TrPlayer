@@ -28,5 +28,9 @@ namespace MusicLib {
         std::cout << "Finalizado" << std::endl;
     }
 
+    void repetir_music(){
+        
+    }
+
 }
 
