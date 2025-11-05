@@ -8,16 +8,23 @@
 using namespace std;
 
 int main(){
-    string noem;
+    string NomeMusica;
     int menu;
     cout << "- | 1 | Tocar - " << endl;
+    cout << "- | 2 | Repetir - " << endl;
     cout << "- | 3 | Sair - " << endl;
     cin >> menu;
     switch (menu) {
         case 1: {
             cout << "Nome da musica? \n";
-            cin >> noem;
-            MusicLib::tocar_music(noem);
+            cin >> NomeMusica;
+            MusicLib::tocar_music(NomeMusica);
+            break;
+        }
+        case 2: {
+            cout << "Nome da musica?" << endl;
+            cin >> NomeMusica;
+            MusicLib::repetir_music(NomeMusica);
         }
     }
 
