@@ -9,9 +9,17 @@ using namespace std;
 
 int main(){
     string noem;
-    cout << "Nome da musica? \n";
-    cin >> noem;
-    MusicLib::tocar_music(noem);
+    int menu;
+    cout << "- | 1 | Tocar - " << endl;
+    cout << "- | 3 | Sair - " << endl;
+    cin >> menu;
+    switch (menu) {
+        case 1: {
+            cout << "Nome da musica? \n";
+            cin >> noem;
+            MusicLib::tocar_music(noem);
+        }
+    }
 
     return  0;
 }
